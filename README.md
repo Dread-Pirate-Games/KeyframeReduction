@@ -1,7 +1,7 @@
 # KeyframeReduction
 Reduce the size of animations produced via motion capture (e.g. Mixamo) by removing duplicate keyframes
 
-#Background
+# Background
 Using tools like Mixamo is great for getting realistic, potentially complex animations for NPCs. However, they use motion capture to create the animations, which creates a TON of keyframes and poses, even when there's essentially no difference from one frame to the next. This causes bloat in the memory used by your game and causes a rapid rise in the number of instances managed by your game.
 
 So what I did was I wrote a PowerShell script to read the exported animation (.rbxmx file), and then starting at the beginning of the time sequence, move forward and compare the part positions in each sequential keyframe and determine if it had moved enough to warrant a new keyframe. If not, that entry is removed. It goes through the entire animnation part by part, comparing CFrames with a precision of 0.01. Any movement less than that amount is considered discardable.

@@ -9,7 +9,7 @@ So what I did was I wrote a PowerShell script to read the exported animation (.r
 Why PowerShell and not a Studio plugin? Easy - the instances of keyframes and Poses within Studio do not expose all of the actual position properties that are available in the exported RBXMX file. So it's not physically possible within Studio. Exporting the animation as an RBXMX is simple enough, and re-importing the modified file is also simple. The hardest part for most people using this tool will be using PowerShell :)
 
 # Results
-I have achieved anywhere from 15% to 50% reduction in the size of animations this has been run against, with appreciable loss in quality of the animation itself. Greater reductions are achieved when there is relatively little motion for most of the character such as an idle animation. Lower reduction percentages happen when there is a lot of motion of all of the parts of the character, such as shaking.
+I have achieved anywhere from 15% to 50% reduction in the size of animations this has been run against, with no appreciable loss in quality of the animation itself. Greater reductions are achieved when there is relatively little motion for most of the character such as an idle animation. Lower reduction percentages happen when there is a lot of motion of all of the parts of the character, such as shaking.
 
 Note that reducing the overall number of animated part keyframes in your animation can also have the effect of actually letting you edit it in the Roblox animation editor. When you have too many keyframes in an animation, the editor simply draws a line all the way across for the part, rending it just about un-editable. As you'll see from the examples below, reducing keyframes can help you overcome this.
 

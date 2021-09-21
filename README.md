@@ -16,17 +16,22 @@ Note that reducing the overall number of animated part keyframes in your animati
 #Examples:
 
 ##Idle animation - previous version with 1594 instances
+
 ![image](https://user-images.githubusercontent.com/82744105/134259489-8d94f4bb-4517-4548-85f3-5e0639063810.png)
 
+
 ##Idle animation - new version with 991 instances (38% reduction)
+
 ![image](https://user-images.githubusercontent.com/82744105/134259528-1e1d8076-ce7d-45cb-98c5-511cb1119a06.png)
 
 
 ##Old animation with 6,283 instances
+
 ![image](https://user-images.githubusercontent.com/82744105/134259710-60caae3b-0e89-4df9-9c60-b9e442a1c9e1.png)
 
 
 ##New Animation with 3,653 instances (42% reduction)
+
 ![image](https://user-images.githubusercontent.com/82744105/134259753-3ef4173c-089f-4180-9a05-d0797322a947.png)
 
 
